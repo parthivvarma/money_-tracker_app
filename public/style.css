@@ -1,0 +1,84 @@
+body {
+    background-color: #f1f3f8; /* Light blue-gray */
+    font-family: 'Quicksand', sans-serif; /* Friendly font */
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #6c5ce7; /* Purple */
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #6c5ce7; /* Purple */
+}
+
+.input-section input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid #a29bfe; /* Lighter purple */
+    border-radius: 6px;
+    font-family: 'Quicksand', sans-serif; /* Friendly font */
+}
+
+.input-section button {
+    padding: 8px 16px;
+    background-color: #fd79a8; /* Pink */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.input-section button:hover {
+    background-color: #e84393; /* Lighter pink on hover */
+}
+
+.expenses-list {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #a29bfe; /* Lighter purple */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #6c5ce7; /* Purple */
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 8px 16px;
+    background-color: #d63031; /* Red */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.delete-btn:hover {
+    background-color: #ff7675; /* Lighter red on hover */
+}
